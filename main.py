@@ -19,6 +19,8 @@ for q in random.sample(quotes, 5):
     qu = q.string.lstrip(' ')
     print qu
     quotes_file.write(qu + "\n")
+ 
+quotes_file.close() 
 
 
 
