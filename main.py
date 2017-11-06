@@ -13,8 +13,6 @@ print "My dear ... just for you: \n"
 
 quotes = all_quotes.findAll("p", attrs={"class": "quoteContent"})
 
-q = 1
-
 for q in random.sample(quotes, 5):
     qu = q.string.lstrip(' ')
     print qu
